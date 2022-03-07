@@ -20,7 +20,7 @@ const styles = {
     fontFamily: "'Handlee', cursive",
     margin: ".2rem",
   },
-  submit: {
+  send: {
     background: "#937594",
     borderRadius: "10px",
     border: "2px solid black",
@@ -91,10 +91,10 @@ export default function Contact() {
           placeholder={"please enter your message..."}
         ></textarea>
         <br />
-        <input value="SEND MESSAGE" type={"button"} style={styles.submit}></input>
+        <input value="SEND" type={"button"} style={styles.send}></input>
       </form>
       <p style={styles.p}>
-        alternatively, contact me via:
+        Or you can also contact me by:
         <br />
         <strong>deniwonder8@gmail.com</strong> or
         <strong> 310-781-0740</strong>

@@ -1,6 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import animalCrossing from "../../assets/ACNHVD1.gif"
 
 const styles = {
   mainDiv: {

@@ -52,8 +52,8 @@ export default function Contact() {
   };
 
   const validateMessage = (message) => {
-    if (message === "" || message.length > 300 || message.length < 20) {
-      window.alert("Please enter a message between 20 and 300 characters");
+    if (message === "" || message.length > 300 || message.length < 10) {
+      window.alert("Please enter a message between 10 and 300 characters");
     }
   };
 

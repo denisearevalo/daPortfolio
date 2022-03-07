@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Navigation from "./Nav";
+import NavBar from "./Nav";
+import Footer from "./Footer";
 import About from "./pageLinks/About";
 import Portfolio from "./pageLinks/Portfolio";
 import Contact from "./pageLinks/Contact";
@@ -57,12 +58,19 @@ function Header() {
           <p>The works of a junior full stack developer</p>
         </div>
       </div>
-      <Navigation
+      <NavBar
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
       {renderPage()}
+      <div>
+      <Footer
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+      />
+      </div>
     </div>
+    
   );
 }
 
